@@ -10,3 +10,16 @@ git add * (only stage new or modified(not deleted))
 git restore (cancel all change)
 git reset (out from staging)
 git commit -m "Message" (saves permanently to local repos)
+git config --global user.email "email@gmail.com" (sets email globally)
+git config --global user.name "RedzyIN" (set username globally)
+git reset HEAD~ (undo last commit)
+git rm filename (remove file and continue to stage)
+
+
+Basic Command
+cd = Change Directory
+pwd = position which directory
+rm = remove item
+type > filename = create new file (Windows)
+touch filename(MacOs)
+mkdir = make new directory/folder
