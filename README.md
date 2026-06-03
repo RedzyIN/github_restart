@@ -21,6 +21,8 @@ git diff (view unposted changes)
 git diff --staged (view posted changes)
 git branch (see all branch)
 git branch new_name_branch (create new branch)
+git checkout branch_name (change branch position)
+
 
 Basic Command
 cd = Change Directory
