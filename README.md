@@ -14,7 +14,13 @@ git config --global user.email "email@gmail.com" (sets email globally)
 git config --global user.name "RedzyIN" (set username globally)
 git reset HEAD~ (undo last commit)
 git rm filename (remove file and continue to stage)
-
+git log (see all history commit in detail)
+git log --oneline (oneline summarize)
+git log --oneline --graph --all (just add * at list)
+git diff (view unposted changes)
+git diff --staged (view posted changes)
+git branch (see all branch)
+git branch new_name_branch (create new branch)
 
 Basic Command
 cd = Change Directory
