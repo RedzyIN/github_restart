@@ -21,6 +21,7 @@ git diff (view unposted changes)
 git diff --staged (view posted changes)
 git branch (see all branch)
 git branch new_name_branch (create new branch)
+git merge main -m "message" (combining sub-branch with main branch)
 
 Basic Command
 cd = Change Directory
