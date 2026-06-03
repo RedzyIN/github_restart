@@ -1,7 +1,6 @@
 Command in Git
 
 git init (create new repo)
-git clone (clone repo from github to local workplace)
 git status (give summarize for modify file/code(update/delete/new file/folder))
 git add (save to staging for update/new changes of file/s or add a file/folder)
 git add --all / -A (for commit all change)
@@ -24,6 +23,10 @@ git branch new_name_branch (create new branch)
 git merge main -m "message" (combining sub-branch with main branch)
 git checkout branch_name/hash_code_commit (change branch position)
 git diff (show us changes by detail(not commit))
+
+Github Command
+git clone (clone repo from github to local workplace)
+git push origin main (only push main branch to github)
 
 Basic Command
 cd = Change Directory
