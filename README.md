@@ -6,7 +6,8 @@ git add (save to staging for update/new changes of file/s or add a file/folder)
 git add --all / -A (for commit all change)
 git add . (only stage current directory)
 git add * (only stage new or modified(not deleted))
-git restore (cancel all change)
+git restore (cancel all change and go back to previous commit)
+git restore --staged ./namefile (unstaged file)
 git reset (out from staging)
 git commit -m "Message" (saves permanently to local repos)
 git config --global user.email "email@gmail.com" (sets email globally)
@@ -23,10 +24,20 @@ git branch new_name_branch (create new branch)
 git merge main -m "message" (combining sub-branch with main branch)
 git checkout branch_name/hash_code_commit (change branch position)
 git diff (show us changes by detail(not commit))
+git switch branch-name (checkout but modern version)
+git switch -c branch-name (switching and creating new branch)
+git branch -d branch-name (delete branch(use -D for forcing delete))
+git stash (save temporary changes)
+git stash list (see all stash)
+git stash pop (take back last stash)
+git stash drop (delete last stash)
+git stash clear (clear all stash)
+git revert (create new commit for cancel prev commit)
 
 Github Command
 git clone (clone repo from github to local workplace)
 git push origin main (only push main branch to github)
+git pull 
 
 Basic Command
 cd = Change Directory
