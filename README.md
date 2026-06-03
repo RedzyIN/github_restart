@@ -32,3 +32,8 @@ rm = remove item
 type > filename = create new file (Windows)
 touch filename(MacOs)
 mkdir = make new directory/folder
+
+All process
+Push = sending local changes to the remote
+Fetch = Bringing remote changes into your local repository, but not merging them yet
+Pull = Fetching plus merging-so your working directory  immediately reflects the remote changes
