@@ -22,7 +22,8 @@ git diff --staged (view posted changes)
 git branch (see all branch)
 git branch new_name_branch (create new branch)
 git merge main -m "message" (combining sub-branch with main branch)
-git checkout branch_name (change branch position)
+git checkout branch_name/hash_code_commit (change branch position)
+git diff (show us changes by detail(not commit))
 
 Basic Command
 cd = Change Directory
