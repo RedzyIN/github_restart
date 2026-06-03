@@ -33,6 +33,7 @@ git stash pop (take back last stash)
 git stash drop (delete last stash)
 git stash clear (clear all stash)
 git revert (create new commit for cancel prev commit)
+git rebase (taking changes from main branch to sub-branch without visiting to prev commit)
 
 Github Command
 git clone (clone repo from github to local workplace)
